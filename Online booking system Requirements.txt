@@ -1,0 +1,26 @@
+Online Ticket Booking
+
+Requirements:
+
+search button   -> to search by  city,location,movie,shows etc
+
+availability of halls to run cinema.
+user will search through portal for movies by title,language,by city where whether particular show is available or not.
+
+user will select movie and book ticket. will make payment.
+
+multiple movies cannot be at same time in one theatre.
+
+Actors:-
+1) Users -> there will be two types.  one users is that who will search without login and other will be one who search movie, then login and book ticket(actual Customer).
+Customer can create booking, view his booking, cancel booking, also can select particular row seat if he can.
+
+2)  System ->  send notification via sms,email .  ticket booked,payment done, movie cancelled,rescheduled. system can show suggestions based on user likes, seen movies in search (elastic search)
+            
+
+3) Admin -> He will add new show, add city, add time of show. also can update, delete.
+
+4) offline person -> will be in office. or theatre to book ticket offline.
+   If offline person had already booked ticket slot, that slot wont be seen as available during online booking.
+   this person also can search movie, view booking, cancel booking. but cannot add shows,movies as that is responsibility of admin.
+   
